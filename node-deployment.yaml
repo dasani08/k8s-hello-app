@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
         - name: nodejsapp-erp
-          image: "achtacht/example-todo-frontend:5"
-  replicas: 1
+          image: "achtacht/example-todo-frontend:latest"
+  replicas: 2
   selector:
     matchLabels:
       type: front-end
