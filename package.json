@@ -1,0 +1,17 @@
+{
+  "name": "k8s-web-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "jsonwebtoken": "^9.0.1",
+    "jwk-to-pem": "^2.0.5"
+  }
+}
