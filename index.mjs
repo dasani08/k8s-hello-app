@@ -19,7 +19,7 @@ app.post("/validate", async (req, res) => {
 
 app.get("/", (req, res) => {
   const helloMessage = `VERSION 2: Hello from the ${os.hostname()}`;
-  console.log(helloMessage);
+  // const helloMessage = "Core BE";
   res.send(helloMessage);
 });
 

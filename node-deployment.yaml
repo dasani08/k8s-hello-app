@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: nodejsapp-erp
-          image: "achtacht/example-todo-frontend:latest"
+          image: "%IMAGE_NAME%"
   replicas: 2
   selector:
     matchLabels:
